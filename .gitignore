@@ -1,1 +1,6 @@
+.env
 *.log
+public/
+resources/
+node_modules/
+certs/
