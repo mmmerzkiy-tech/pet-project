@@ -1,0 +1,19 @@
+baseURL = "http://pet.loc/"
+languageCode = "ru"
+title = "Pet Project"
+theme = "paper"
+defaultContentLanguage = "ru"
+paginate = 10
+
+[languages]
+  [languages.ru]
+    languageName = "Русский"
+    weight = 1
+  [languages.en]
+    languageName = "English"
+    weight = 2
+
+[params]
+  author = "DevOps Learner"
+  description = "Учебный DevOps-проект на Hugo"
+  background_color_class = "bg-gray"
