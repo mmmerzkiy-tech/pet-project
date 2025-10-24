@@ -4,3 +4,4 @@ public/
 resources/
 node_modules/
 certs/
+/hugo/themes/
