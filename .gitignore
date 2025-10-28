@@ -1,5 +1,6 @@
 .env
 *.log
+*.key
 public/
 resources/
 node_modules/
