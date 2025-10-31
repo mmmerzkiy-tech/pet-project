@@ -1,8 +1,8 @@
 ---
-title: "Добро пожаловать"
-date: 2025-10-21T00:00:00Z
-draft: false
+title: "Добро пожаловать в Pet Project"
 ---
 
-Это мой первый сайт на Hugo и Docker.
-Он будет служить учебным DevOps-проектом.
+Это учебный DevOps-проект, где я разворачиваю **Hugo**, **Docker** и HTTPS.
+
+Сайт сделан на [Hugo Paper](https://github.com/nanxiaobei/hugo-paper) — 
+минималистичной, но элегантной теме.
