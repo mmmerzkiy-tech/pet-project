@@ -11,15 +11,16 @@ services:
       - ./nginx/certbot/www:/var/www/certbot
       - ./hugo/site/public:/usr/share/nginx/html
       - ./nginx/certbot/conf:/etc/ssl
-      
+
     depends_on:
       - hugo
 
   hugo:
-    image: klakegg/hugo:ext-alpine
+    build: ./hugo
     container_name: pet-hugo
     restart: on-failure
     volumes:
       - ./hugo/site:/src
-    command:
-      --destination /src/public --watch --buildDrafts --verbose
+    #command:
+    #  --destination /src/public --watch --buildDrafts --verbose
+
