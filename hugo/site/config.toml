@@ -1,4 +1,4 @@
-baseURL = "http://pet.loc/"
+baseURL = "https://pet.loc/"
 languageCode = "ru"
 title = "Pet Project"
 theme = "paper"
